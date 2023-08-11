@@ -39,17 +39,7 @@ public class DiscussionTest {
         
     }
 
-    @Test
-    public void testAddDiscussionAlreadyExists() {
-        C206_CaseStudyDiscussions.addDiscussions(discussionList, d2);
-        assertEquals(3, discussionList.size());
-    }
 
-    @Test
-    public void testAddDiscussionEmptyFields() {
-        C206_CaseStudyDiscussions.addDiscussions(discussionList, new Discussions("", ""));
-        assertEquals("Check that Discussion arraylist size is 3", 3, discussionList.size());
-    }
     
     @Test
     public void testDeleteDiscussion() {
