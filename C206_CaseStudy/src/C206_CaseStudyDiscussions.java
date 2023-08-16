@@ -9,7 +9,7 @@ public class C206_CaseStudyDiscussions {
         ArrayList<Discussions> discussionList = new ArrayList<Discussions>();
         discussionList.add(new Discussions("Summer Adventure Ride", "Summer"));
 
-        discussionList.add(new Discussions("Family Fun Bike Rally", "Family"));
+        discussionList.add(new Discussions("Family Fun Bike Rally", "Family!"));
 
         int option = 0;
 
